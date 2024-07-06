@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shubhi Sudan</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
+
+    <link rel = "stylesheet" href="style.css">
+
+</head>
+<body>
+    <div id="header">
+        <div class="container">
+        <nav>
+         <ul id="sidemenu"> 
+            <li> <a href="#header">Home</a> </li>
+              <li><a href="#about">About</a></li>
+             <li><a href="#roles">Roles and Responsibilities</a></li> 
+              <li><a href="#portfolio">Projects</a></li> 
+             <li> <a href="#contact">Contact</a> </li>
+             <i class="fa-solid fa-times" onclick="closemenu()"></i>
+            </ul>
+         <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+        </nav>
+    
+        <div class="header-text"> 
+          <p>Hi. I'm</p>
+          <h1>Shubhi Sudan</h1> 
+          <p>Computer Science Undergraduate</p>
+        </div>
+     </div>
+    </div>
+    
+    <!-----------------ABOUT SECTION CODE--------------------->
+    
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                <img class ="me" src="images/user.jpeg" width="400" height="500" alt="user">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>
+                        Hello! I'm Shubhi Sudan, a pre-final year B.Tech Computer Science and Engineering student at Indira Gandhi Delhi Technical University for Women. With a solid foundation in programming languages such as C and C++, I am passionate about coding and problem-solving.
+
+                        My primary interest lies in web development. I have experience in frontend development and am currently expanding my skills by diving into backend development. 
+
+                        I love exploring various fields within technology to broaden my horizons and enrich my skill set. 
+                    </p>
+                <div class="tab-titles">
+                    <p class="tab-links active-link" onclick="opentab('skills')">Skills</p>
+                    <p class="tab-links" onclick="opentab('education')">Education</p>
+                </div>
+    
+                <div class="tab-contents active-tab" id="skills">
+                    <ul>
+                        <li><span>Languages</span><br></li>
+                        <div id="logos">
+                            <img src="tools/c.png"> 
+                            <img src="tools/cpp.png"> 
+                            <img src="tools/python.png">
+                            <img src="tools/html.png"> 
+                            <img src="tools/css.png"> 
+                            <img src="tools/js.png">
+                        </div>
+                        <li><span>Tools</span><br></li>
+                        <div id="logos">
+                            <img src="tools/canva.png"> 
+                            <img src="tools/figma.png">
+                        </div>                    
+                    </ul>
+                </div>
+    
+                <div class="tab-contents" id="education">
+                    <ul>
+                        <li><span>2022-2026</span><br>BTech-Computer Science and Engineering,<br>Indira Gandhi Delhi Technical University for Women <br><br> Current GPA: 9.09</li>
+                        <li><span>2022</span><br>Mount Carmel School</li>
+                    
+                    </ul>
+                </div>
+    
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!---------------ROLES-------------->
+    
+    <div id="roles">
+        <div class="container">
+         <h1 class="sub-title">Roles and Responsibilities</h1>
+          <div class="roles-list">
+            <div>
+                <h2>Core Member at Lean In IGDTUW, Aug 2023 - Present</h2>
+                <p>-Lean In IGDTUW : One of the 10 lead members of the society having 300+ mentees and 6 mentorship circles.<br> 
+                    -Supervising the overall functioning of the club like content writing, managing social media handles, organising events, etc.<br>
+                    -Skills : Management, Teamwork
+                </p>
+            </div>
+    
+            <div>
+                <h2>Student Mentor, Desh ke Mentor, Govt. of Delhi, Nov 2022 - Apr 2023</h2>
+                <p>-Desh Ke Mentor : Mentorship program run by Government of Delhi<br>
+                    -Providing academic guidance, aareer guidance and counselling to high school students<br>
+                    -Skills: Mentoring · Communication</p>
+            </div>
+          </div>
+        </div>
+    </div>
+    
+    <!----------------------PROJECTS---------------------------->
+    <div id="portfolio">
+        <div class="container">
+            <h1 class="sub-title">My Projects</h1>
+            <div class="work-list">
+                <div class="work">
+                    <div class="layer">
+                        <h3>Accident Prediction Model using Image Recognition</h3>
+                        <p>- A comparative analysis of accident prediction models using image recognition techniques as well as a corresponding research paper. We explored different ML models: CNN, KNN, and Random Forest Trees, evaluating their performance based on accuracy, precision, recall, and F1 score.<br>
+                        -Skills: Machine Learning, Python</p>
+                        <a href="https://github.com/shubhisudan/Accident-Prediction-Model" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
+                <div class="work">
+                    <div class="layer">
+                        <h3>My Links</h3>
+                        <p>- It is a simple yet powerful Chrome extension designed to help you save and manage your favorite links directly from your browser. Built using JavaScript and Chrome's extension APIs, this project enhances your browsing experience by providing seamless access to saved URLs.<br>
+                            -Skills: HTML, CSS, Javascript
+                        </p>
+                        <a href="https://github.com/shubhisudan/Chrome-Extension--My-Links" target="_blank" class="btn">View Project</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <!-----------------CONTACT----------------->
+    <div id="contact">
+        <div class="contain">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <a href="mailto:shubhisudan@gmail.com" class="mail-link">shubhisudan@gmail.com
+                    </a>
+
+                    <div class="social-icons">
+                        <a href="https://www.linkedin.com/in/shubhi-sudan-357b2724a/" target="_blank">
+                            <img src="images/linkedin.png" alt="LinkedIn">
+                        </a>
+                        <a href="https://github.com/shubhisudan" target="_blank">
+                            <img src="images/github.png" alt="GitHub">
+                        </a>
+                        <a href="https://www.instagram.com/_shubhii.21/" target="_blank">
+                            <img src="images/ig.png" alt="Instagram">
+                        </a>
+                    </div>
+                    <a href="https://drive.google.com/drive/folders/18j42QxypvfiWMVzq1My78Kx2Z_xV1Dby" download class="btn btn2">Download Resume</a>
+                </div>
+                <div class="contact-right">
+                    <form name="submit-to-google-sheet">
+                        <input type="text" name="Name" placeholder="Your Name" required>
+                        <input type="email" name="Email" placeholder="Your Email" required>
+                        <textarea name="Message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn btn2">Submit</button>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </div>    
+
+    <script src="index.js">end</script>
+</body>
+</html>
